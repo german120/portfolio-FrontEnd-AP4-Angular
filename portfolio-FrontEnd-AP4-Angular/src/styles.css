@@ -1,1 +1,66 @@
 /* You can add global styles to this file, and also import other style files */
+.bg-violet{
+    background-color: rgb(131, 66, 192);
+}
+
+.letra-negra{
+    filter: invert(1);
+    -webkit-filter: invert(1);
+    -moz-filter: invert(1)
+}
+
+.list-group{
+    --bs-list-group-bg: transparent;
+}
+
+.fa-brands.fa-linkedin.fa-lg:hover{
+
+    color:black !important;
+}
+
+.fa-brands.fa-facebook.fa-lg:hover{
+
+    color:black !important;
+}
+
+.fa-brands.fa-github.fa-lg:hover{
+
+    color:black !important;
+}
+
+.fa-solid.fa-user-lock.fa-lg:hover{
+
+    color:black !important;
+}
+
+section.banner{
+    background-image: linear-gradient(
+        rgba(0,0,0,0.3),
+        rgba(0,0,0,0.6)
+    ), url(/images/banner.jpg);
+    height: 100vh;
+    width:100%;
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -msn-background-size: cover;   
+}
+
+h3.intro{
+    padding-top: 10%;
+    }
+
+h1.intro{
+font-size: 3rem;
+}
+
+body {
+    background: linear-gradient(to top, blue, gold);
+    background: -webkit-linear-gradient(top, blue, gold);
+    background: -moz-linear-gradient(top, blue, gold);
+    background: -o-linear-gradient(top, blue, gold);
+    background: -ms-linear-gradient(top, blue, gold);
+}
+
