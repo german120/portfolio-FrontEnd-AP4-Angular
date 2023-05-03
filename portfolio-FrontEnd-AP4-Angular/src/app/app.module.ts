@@ -12,6 +12,8 @@ import { ExperienciaComponent } from './componentes/experiencia/experiencia.comp
 import { EducacionComponent } from './componentes/educacion/educacion.component';
 import { SkillsComponent } from './componentes/skills/skills.component';
 import { VentanaModalComponent } from './componentes/ventana-modal/ventana-modal.component';
+import { HomeComponent } from './componentes/home/home.component';
+import { LoginComponent } from './componentes/login/login.component';
 
 
 @NgModule({
@@ -23,7 +25,9 @@ import { VentanaModalComponent } from './componentes/ventana-modal/ventana-modal
     ExperienciaComponent,
     EducacionComponent,
     SkillsComponent,
-    VentanaModalComponent
+    VentanaModalComponent,
+    HomeComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
