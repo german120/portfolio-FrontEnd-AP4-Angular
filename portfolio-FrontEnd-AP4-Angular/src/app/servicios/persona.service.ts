@@ -12,7 +12,8 @@ const AUTHORITIES = 'AuthAuthorities';
 })
 export class PersonaService {
 
-  URL = 'http://localhost:8080/personas/';
+  //URL = 'http://localhost:8080/personas/';
+  URL = 'https://portfolio-backend-ap4.onrender.com/personas/';
 
   constructor(private http: HttpClient) { }
 
